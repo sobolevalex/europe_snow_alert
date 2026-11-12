@@ -92,3 +92,4 @@ You can add, remove, or customize monitored locations in `europe_snow_alert/citi
 ## License
 
 MIT License
+
