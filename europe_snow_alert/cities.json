@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Вена",
+    "country": "Австрия",
+    "latitude": 48.2082,
+    "longitude": 16.3738
+  },
+  {
+    "name": "Зальцбург",
+    "country": "Австрия",
+    "latitude": 47.8095,
+    "longitude": 13.0550
+  },
+  {
+    "name": "Инсбрук",
+    "country": "Австрия",
+    "latitude": 47.2692,
+    "longitude": 11.4041
+  },
+  {
+    "name": "Грац",
+    "country": "Австрия",
+    "latitude": 47.0707,
+    "longitude": 15.4395
+  },
+  {
+    "name": "Прага",
+    "country": "Чехия",
+    "latitude": 50.0755,
+    "longitude": 14.4378
+  },
+  {
+    "name": "Брно",
+    "country": "Чехия",
+    "latitude": 49.1951,
+    "longitude": 16.6068
+  },
+  {
+    "name": "Варшава",
+    "country": "Польша",
+    "latitude": 52.2297,
+    "longitude": 21.0122
+  },
+  {
+    "name": "Краков",
+    "country": "Польша",
+    "latitude": 50.0647,
+    "longitude": 19.9450
+  },
+  {
+    "name": "Вроцлав",
+    "country": "Польша",
+    "latitude": 51.1079,
+    "longitude": 17.0385
+  },
+  {
+    "name": "Гданьск",
+    "country": "Польша",
+    "latitude": 54.3520,
+    "longitude": 18.6466
+  },
+  {
+    "name": "Закопане",
+    "country": "Польша",
+    "latitude": 49.2992,
+    "longitude": 19.9496
+  },
+  {
+    "name": "Будапешт",
+    "country": "Венгрия",
+    "latitude": 47.4979,
+    "longitude": 19.0402
+  },
+  {
+    "name": "Братислава",
+    "country": "Словакия",
+    "latitude": 48.1486,
+    "longitude": 17.1077
+  },
+  {
+    "name": "Кошице",
+    "country": "Словакия",
+    "latitude": 48.7164,
+    "longitude": 21.2611
+  },
+  {
+    "name": "Бухарест",
+    "country": "Румыния",
+    "latitude": 44.4268,
+    "longitude": 26.1025
+  },
+  {
+    "name": "Брашов",
+    "country": "Румыния",
+    "latitude": 45.6580,
+    "longitude": 25.6012
+  },
+  {
+    "name": "Клуж-Напока",
+    "country": "Румыния",
+    "latitude": 46.7712,
+    "longitude": 23.6236
+  },
+  {
+    "name": "София",
+    "country": "Болгария",
+    "latitude": 42.6977,
+    "longitude": 23.3219
+  },
+  {
+    "name": "Банско",
+    "country": "Болгария",
+    "latitude": 41.8410,
+    "longitude": 23.4867
+  },
+  {
+    "name": "Берлин",
+    "country": "Германия",
+    "latitude": 52.5200,
+    "longitude": 13.4050
+  },
+  {
+    "name": "Мюнхен",
+    "country": "Германия",
+    "latitude": 48.1351,
+    "longitude": 11.5820
+  },
+  {
+    "name": "Франкфурт",
+    "country": "Германия",
+    "latitude": 50.1109,
+    "longitude": 8.6821
+  },
+  {
+    "name": "Гамбург",
+    "country": "Германия",
+    "latitude": 53.5511,
+    "longitude": 9.9937
+  },
+  {
+    "name": "Кёльн",
+    "country": "Германия",
+    "latitude": 50.9375,
+    "longitude": 6.9603
+  },
+  {
+    "name": "Дрезден",
+    "country": "Германия",
+    "latitude": 51.0504,
+    "longitude": 13.7373
+  },
+  {
+    "name": "Гармиш-Партенкирхен",
+    "country": "Германия",
+    "latitude": 47.4921,
+    "longitude": 11.0958
+  },
+  {
+    "name": "Цюрих",
+    "country": "Швейцария",
+    "latitude": 47.3769,
+    "longitude": 8.5417
+  },
+  {
+    "name": "Женева",
+    "country": "Швейцария",
+    "latitude": 46.2044,
+    "longitude": 6.1432
+  },
+  {
+    "name": "Берн",
+    "country": "Швейцария",
+    "latitude": 46.9480,
+    "longitude": 7.4474
+  },
+  {
+    "name": "Церматт",
+    "country": "Швейцария",
+    "latitude": 45.9765,
+    "longitude": 7.7491
+  },
+  {
+    "name": "Санкт-Мориц",
+    "country": "Швейцария",
+    "latitude": 46.4908,
+    "longitude": 9.8355
+  },
+  {
+    "name": "Милан",
+    "country": "Италия",
+    "latitude": 45.4642,
+    "longitude": 9.1900
+  },
+  {
+    "name": "Турин",
+    "country": "Италия",
+    "latitude": 45.0703,
+    "longitude": 7.6869
+  },
+  {
+    "name": "Кортина-д’Ампеццо",
+    "country": "Италия",
+    "latitude": 46.5405,
+    "longitude": 12.1357
+  },
+  {
+    "name": "Больцано",
+    "country": "Италия",
+    "latitude": 46.4983,
+    "longitude": 11.3548
+  },
+  {
+    "name": "Стокгольм",
+    "country": "Швеция",
+    "latitude": 59.3293,
+    "longitude": 18.0686
+  },
+  {
+    "name": "Гётеборг",
+    "country": "Швеция",
+    "latitude": 57.7089,
+    "longitude": 11.9746
+  },
+  {
+    "name": "Оре",
+    "country": "Швеция",
+    "latitude": 63.3989,
+    "longitude": 13.0815
+  },
+  {
+    "name": "Осло",
+    "country": "Норвегия",
+    "latitude": 59.9139,
+    "longitude": 10.7522
+  },
+  {
+    "name": "Берген",
+    "country": "Норвегия",
+    "latitude": 60.3913,
+    "longitude": 5.3221
+  },
+  {
+    "name": "Тромсё",
+    "country": "Норвегия",
+    "latitude": 69.6492,
+    "longitude": 18.9553
+  },
+  {
+    "name": "Тронхейм",
+    "country": "Норвегия",
+    "latitude": 63.4305,
+    "longitude": 10.3951
+  },
+  {
+    "name": "Хельсинки",
+    "country": "Финляндия",
+    "latitude": 60.1699,
+    "longitude": 24.9384
+  },
+  {
+    "name": "Тампере",
+    "country": "Финляндия",
+    "latitude": 61.4978,
+    "longitude": 23.7610
+  },
+  {
+    "name": "Рованиеми",
+    "country": "Финляндия",
+    "latitude": 66.5039,
+    "longitude": 25.7294
+  },
+  {
+    "name": "Таллин",
+    "country": "Эстония",
+    "latitude": 59.4370,
+    "longitude": 24.7536
+  },
+  {
+    "name": "Тарту",
+    "country": "Эстония",
+    "latitude": 58.3780,
+    "longitude": 26.7290
+  },
+  {
+    "name": "Рига",
+    "country": "Латвия",
+    "latitude": 56.9496,
+    "longitude": 24.1052
+  },
+  {
+    "name": "Вильнюс",
+    "country": "Литва",
+    "latitude": 54.6872,
+    "longitude": 25.2797
+  },
+  {
+    "name": "Рейкьявик",
+    "country": "Исландия",
+    "latitude": 64.1466,
+    "longitude": -21.9426
+  },
+  {
+    "name": "Копенгаген",
+    "country": "Дания",
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  },
+  {
+    "name": "Париж",
+    "country": "Франция",
+    "latitude": 48.8566,
+    "longitude": 2.3522
+  },
+  {
+    "name": "Лион",
+    "country": "Франция",
+    "latitude": 45.7640,
+    "longitude": 4.8357
+  },
+  {
+    "name": "Шамони",
+    "country": "Франция",
+    "latitude": 45.9237,
+    "longitude": 6.8694
+  },
+  {
+    "name": "Страсбург",
+    "country": "Франция",
+    "latitude": 48.5734,
+    "longitude": 7.7521
+  },
+  {
+    "name": "Амстердам",
+    "country": "Нидерланды",
+    "latitude": 52.3676,
+    "longitude": 4.9041
+  },
+  {
+    "name": "Брюссель",
+    "country": "Бельгия",
+    "latitude": 50.8503,
+    "longitude": 4.3517
+  },
+  {
+    "name": "Любляна",
+    "country": "Словения",
+    "latitude": 46.0569,
+    "longitude": 14.5058
+  },
+  {
+    "name": "Блед",
+    "country": "Словения",
+    "latitude": 46.3683,
+    "longitude": 14.1146
+  },
+  {
+    "name": "Загреб",
+    "country": "Хорватия",
+    "latitude": 45.8150,
+    "longitude": 15.9819
+  },
+  {
+    "name": "Сараево",
+    "country": "Босния и Герцеговина",
+    "latitude": 43.8563,
+    "longitude": 18.4131
+  },
+  {
+    "name": "Белград",
+    "country": "Сербия",
+    "latitude": 44.7866,
+    "longitude": 20.4489
+  }
+]
