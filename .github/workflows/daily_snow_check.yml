@@ -1,0 +1,29 @@
+name: Daily Snow Check
+
+on:
+  schedule:
+    # Запуск с воскресенья по четверг в 06:30 UTC (08:30 по Израилю зимой / 09:30 летом)
+    - cron: '30 6 * * 0-4'
+  # Позволяет запускать скрипт вручную кнопкой из интерфейса GitHub для теста
+  workflow_dispatch:
+
+jobs:
+  run-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run snow alert script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python europe_snow_alert/main.py
