@@ -134,15 +134,27 @@ def check_snow(cities: list[City] | None = None) -> tuple[list[str], str, str]:
         snow = daily.get("snowfall_sum", [0.0, 0.0])
         temps = daily.get("temperature_2m_max", [None, None])
 
-        fri_snow = snow[0] or 0.0
-        sat_snow = snow[1] or 0.0
+        fri_snow = (snow[0] or 0.0) if len(snow) > 0 and snow[0] is not None else 0.0
+        sat_snow = (snow[1] or 0.0) if len(snow) > 1 and snow[1] is not None else 0.0
+        fri_temp = temps[0] if len(temps) > 0 else None
+        sat_temp = temps[1] if len(temps) > 1 else None
 
-        # Порог > 1 см отсекает случайные 3 снежинки
-        if fri_snow >= 1 or sat_snow >= 1:
+        # Порог >= 1 см и температура ниже 0°C отсекают мокрый снег и осадки при плюсовой температуре
+        fri_snow_valid = fri_snow >= 1 and fri_temp is not None and fri_temp < 0
+        sat_snow_valid = sat_snow >= 1 and sat_temp is not None and sat_temp < 0
+
+        if fri_snow_valid or sat_snow_valid:
             location_label = f"{city.name} ({city.country})" if city.country else city.name
-            entry = f"• <b>{location_label}</b>: Пт {fri_snow:.1f} см ({temps[0]}°C) | Сб {sat_snow:.1f} см ({temps[1]}°C)"
+            entry = f"• <b>{location_label}</b>: Пт {fri_snow:.1f} см ({fri_temp}°C) | Сб {sat_snow:.1f} см ({sat_temp}°C)"
             snowy_cities.append(entry)
-            logger.debug("Snow alert match: %s [Fri: %.1f cm (%s°C), Sat: %.1f cm (%s°C)]", location_label, fri_snow, temps[0], sat_snow, temps[1])
+            logger.debug(
+                "Snow alert match: %s [Fri: %.1f cm (%s°C), Sat: %.1f cm (%s°C)]",
+                location_label,
+                fri_snow,
+                fri_temp,
+                sat_snow,
+                sat_temp,
+            )
 
     logger.info("Snow check completed. %d of %d cities expect snow.", len(snowy_cities), len(target_cities))
     return snowy_cities, fri_str, sat_str

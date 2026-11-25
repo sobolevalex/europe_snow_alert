@@ -1,6 +1,6 @@
 # Europe Snow Alert ❄️
 
-Automated alert service that monitors weather forecasts across 60+ European cities and ski destinations for upcoming weekends (Friday and Saturday). When snowfall is predicted (≥ 0.5 cm), it sends an instant notification to a Telegram chat with snowfall amounts and maximum temperatures.
+Automated alert service that monitors weather forecasts across 60+ European cities and ski destinations for upcoming weekends (Friday and Saturday). When snowfall is predicted (≥ 1 cm) with sub-zero temperatures (< 0°C), it sends an instant notification to a Telegram chat with snowfall amounts and maximum temperatures.
 
 ---
 
