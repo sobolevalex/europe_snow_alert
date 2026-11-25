@@ -3,8 +3,8 @@ name: Daily Snow Check
 
 on:
   schedule:
-    # Основное расписание
-    - cron: '25 6 * * SUN,MON,TUE,WED,THU'
+    # Основное расписание:
+    # - cron: '25 6 * * SUN,MON,TUE,WED,THU'
   # Позволяет запускать скрипт вручную кнопкой из интерфейса GitHub для теста
   workflow_dispatch:
 

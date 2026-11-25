@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 import logging
 import os
@@ -9,12 +11,12 @@ from typing import NamedTuple
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_DIR = Path(__file__).resolve().parent
 DEFAULT_CITIES_PATH = CONFIG_DIR / "cities.json"
 DEFAULT_LOG_PATH = BASE_DIR / "snow_alert.log"
+
+load_dotenv(BASE_DIR / ".env")
 
 
 def setup_logger() -> logging.Logger:
